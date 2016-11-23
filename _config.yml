@@ -30,8 +30,8 @@ favicon: https://avatars3.githubusercontent.com/u/15698129?v=3&u=53eb590ab862e3e
 
 # google analytics config
 # ga:
-  # id: UA-54767140-1
-  # url: yansu.org
+  id: UA-54767140-1
+  url: yansu.org
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
