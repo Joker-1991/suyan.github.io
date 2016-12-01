@@ -8,7 +8,7 @@ description:
 ---
 
 #Mac 下配置 apache PHP mysql 
-===
+
 ##步骤
  - 安装 homebrew
  - 安装 php (mac 默认有PHP 版本 )查看本机php版本：php -v
@@ -17,12 +17,10 @@ description:
  - 配置 hosts
  - 安装 npm 
 
-
-===
 ### 安装homebrew
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
----
+
 ### 安装：apache php版本（选装 mac自带apache php）
 ```
 brew tap homebrew/apache
@@ -30,13 +28,13 @@ brew tap homebrew/php
 brew install httpd24
 brew install php53
 ```
----
+
 ### 安装Mysql
 ```brew install mysql```
 
 (可以用```brew info mysql``` 查询信息)
 
----
+
 ### 配置mac 自带apache
 重启 apache服务器 ```sudo apachectl restart``` 
 
@@ -77,7 +75,7 @@ brew install php53
 配置apache ->/etc/hosts (最好备份),增加一个域名指向127.0.0.1
  [参考](https://my.oschina.net/joanfen/blog/171109)
  
- ---
+
 
 ### Lumen
 后台:
@@ -107,7 +105,7 @@ composer dump-autoload
 如果不想每次都执行可以用
 
 ``` gulp watch```
----
+
 
 ### 配置数据库  
 启动 mysql 
